@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarFlix - Online Movie Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1b1b1b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background-color: #ff4c4c;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .movie {
+            background-color: white;
+            border-radius: 5px;
+            width: 200px;
+            margin: 15px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .movie h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .movie p {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .movie button {
+            background-color: #ff4c4c;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .movie button:hover {
+            background-color: #e84343;
+        }
+        footer {
+            background-color: #1b1b1b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍿 StarFlix</h1>
+        <p>Your One-Stop Online Movie Store</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">New Releases</a>
+        <a href="#">Top Rated</a>
+        <a href="#">Genres</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="movie">
+            <img src="https://via.placeholder.com/200x300" alt="Movie 1">
+            <h3>Galactic Wars</h3>
+            <p>$9.99</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="movie">
+            <img src="https://via.placeholder.com/200x300" alt="Movie 2">
+            <h3>Romance in Paris</h3>
+            <p>$7.50</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="movie">
+            <img src="https://via.placeholder.com/200x300" alt="Movie 3">
+            <h3>Haunted Nights</h3>
+            <p>$8.25</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="movie">
+            <img src="https://via.placeholder.com/200x300" alt="Movie 4">
+            <h3>Comedy Central</h3>
+            <p>$6.99</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 StarFlix. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
